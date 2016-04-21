@@ -6,6 +6,14 @@ const int NUM_COLS = 4;
 const int TBL1_ROWS = 3; 
 const int TBL2_ROWS = 4; 
 
+/*
+The number of columns is required in the function prototype 
+& header b/c of the way two dimensional arrays are stored. 
+One row follows another (See Figure 8-16 pg 550). When the 
+compiler generates code for accessing the elements of a two-dimensional
+array, it needs to know how many bytes separate the rows in memory. 
+The # of columns is a critical factor in this calculation. 
+*/
 void showArray( const int [][NUM_COLS], int);  //Function prototype 
 
 int main() 
