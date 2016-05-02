@@ -1,3 +1,7 @@
+//The following code uses pointer notation to traverse the list 
+/*You can set the pointer to the name of the array. This makes it so that 
+the value stored in the pointer is actually array[0] which lets you 
+be able to add a count on the pointer to traverse the list */
 #include <iostream> 
 using namespace std; 
 
