@@ -35,5 +35,18 @@ void NumberList::add(double number)
 }
 int main(){
 
-	
+	Node list;
+	int count; 
+ 
+	cout << "How many numbers are you going to add? "<< endl; 
+	cin >> count; 
+	for (int i = 0; i < count; i++)
+	{
+		double number; 
+
+		cout << "Number " << (i + 1) << ": "; 
+		cin >> number; 
+
+		list.add(number); 
+	}	
 } 
